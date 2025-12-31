@@ -1,0 +1,22 @@
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+}

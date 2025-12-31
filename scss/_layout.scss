@@ -1,0 +1,18 @@
+header {
+  @include flex-between;
+  background-color: $primary-color;
+  color: $white;
+  padding: 20px 40px;
+}
+
+.hero {
+  @include section-spacing;
+  background-color: $secondary-color;
+  text-align: center;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

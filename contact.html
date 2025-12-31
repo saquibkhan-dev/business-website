@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <script src="js/form-validation.js"></script>
+
+  <body>
+    <header>
+      <button class="menu-btn">Menu</button>
+
+      <div class="logo">Nova Digital</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <h1>Contact Us</h1>
+
+        <form onsubmit="return validateForm()">
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="email" id="email" placeholder="Your Email" />
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Nova Digital Agency</p>
+    </footer>
+  </body>
+</html>

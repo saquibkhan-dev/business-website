@@ -1,0 +1,9 @@
+@import "variables";
+@import "mixins";
+@import "layout";
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+}
